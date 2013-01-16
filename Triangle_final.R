@@ -11,7 +11,7 @@ count<-0
 triangles<-10000                # Set the number of possibilities that should be tested 
 for (i in 1:triangles)
 {
-  tot<-runif(1,0,10000)             # Create the line
+  tot<-runif(1,0,1)             # Create the line
   cut1<-runif(1,0,tot)          # Make the longer cut inside of tot
   cut2<-runif(1,0,cut1)         # Make the shorter cut inside of cut1
   # to make this simple to follow, next we name 3 sections on the line tot, A B C
